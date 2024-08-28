@@ -1,6 +1,6 @@
 # Rethinking Robustness of Model Attributions
 
-This repository is the codebase for the AAAI 2024 paper [Rethinking Robustness of Model Attributions]
+This repository is the codebase for the AAAI 2024 paper [Rethinking Robustness of Model Attributions](https://ojs.aaai.org/index.php/AAAI/article/view/28047).
 
 ## Overview
 The paper shows the two main causes for fragile attributions: first, the existing metrics of robustness (e.g., top-k intersection) *over-penalize* even reasonable local shifts in attribution, thereby making random perturbations to appear as a strong attack, and second, the attribution can be concentrated in a small region even when there are multiple important parts in an image. To rectify this, we propose simple ways to strengthen existing metrics and attribution methods that incorporate *locality* of pixels in robustness metrics and *diversity* of pixel locations in attributions.
