@@ -1,0 +1,4 @@
+Post-processing ImageNet maps :
+
+scripts/imagenet_topk_div_eps.py - Post process and obtain LENS and top-k-div with LENS based results from the stored maps. Obtains results for the combination of training type, epsilon values, explanation method, attack method. The maps are obtained from code(https://github.com/amiratag/InterpretationFragility) of Interpretation of Neural Network is Fragile (arxiv.org/abs/1710.10547, AAAI 2019).
+scripts/imagenet_topk_div_rand.py - Post process and obtain LENS and top-k-div with LENS based results from the stored maps. Obtains results for the combination of training type,  explanation method with random sign perturbation with $\epsilon=8/255$. Pre-trained ResNet50 models given in https://github.com/MadryLab/robustness along with Pytorch/Captum was used to obtain results with many explanation methods.
