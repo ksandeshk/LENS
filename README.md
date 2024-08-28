@@ -15,7 +15,7 @@ Codebases used in the paper as is or modified accordingly.
 ## Code documentation.
 * Folder \<dataset\> are based on [RAR] code base. We have incorporated the LENS and top-k-div with LENS as part of the code. The metrics are applied after the attacks return the corresponding explanation maps of the unperturbed and perturbed images.
 
-Please use the instructions given in Chen-et-al-README.md for obtaining Natural, Adversarial (PGD) and Attributional (IG-SUM-NORM) models for MNIST and Flower datasets. For the proposed LENS-metric based evaluation and attack construction, check ./\<dataset\>/README.md.
+* Chen-et-al-README.md contains the instructions for obtaining Natural, Adversarial (PGD) and Attributional (IG-SUM-NORM) models for MNIST and Flower datasets. For the proposed LENS-metric based evaluation and attack construction, refer to ./\<dataset\>/README.md.
 
 * Folder *scripts* contains scripts to post process stored explanation maps of unperturbed and perturbed images to obtain LENS and top-k-div with LENS values for ImageNet dataset. Please use the instructions given in ./scripts/README.md to know more about individual files. 
 
